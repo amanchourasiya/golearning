@@ -8,8 +8,9 @@ import (
 )
 
 func main() {
-	variablesDemoRun()
+	//variablesDemoRun()
 	//loopsDemo()
+	switchDemo()
 	//functionDemoRun()
 	//methodDemo()
 	//interfaceDemo()
@@ -27,6 +28,12 @@ func variablesDemoRun() {
 
 func loopsDemo() {
 	basics.LoopsDemo()
+}
+
+func switchDemo() {
+	basics.SwitchTest(12)
+	basics.SwitchTest(12.22)
+	basics.SwitchTest("Some random string")
 }
 
 func functionDemoRun() {
