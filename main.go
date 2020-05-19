@@ -9,6 +9,7 @@ import (
 
 func main() {
 	//variablesDemoRun()
+	scopeDemo()
 	//loopsDemo()
 	//switchDemo()
 	//functionDemoRun()
@@ -24,6 +25,10 @@ func variablesDemoRun() {
 	name := basics.Name{}
 	name.FirstName = "aman"
 	name.LastName = "chourasiya"
+}
+
+func scopeDemo() {
+	basics.ScopeTest()
 }
 
 func loopsDemo() {
