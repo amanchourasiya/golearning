@@ -32,13 +32,13 @@ func VariablesDemo() {
 }
 
 type Name struct {
-	firstName string
+	FirstName string
 	LastName  string
 }
 
 // Declaring Arrays
 
-var arr [3]int = [3]int{1, 2, 3}
+var arr = [3]int{1, 2, 3}
 
 func ArrayDemo() {
 	fmt.Printf("Array element %d\n", arr[2])

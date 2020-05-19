@@ -4,26 +4,26 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/amanchourasiya/learning/basics"
+	"github.com/amanchourasiya/golearning/basics"
 )
 
 func main() {
-	//variablesDemoRun()
+	variablesDemoRun()
 	//loopsDemo()
-	switchDemo()
+	//switchDemo()
 	//functionDemoRun()
 	//methodDemo()
 	//interfaceDemo()
 	//concurrencyDemo()
-	//channelDemo()
+	channelDemo()
 }
 
 func variablesDemoRun() {
 	basics.VariablesDemo()
 
-	//name := basics.Name{}
-	//name.firstName = "aman"
-	//name.LastName = "chourasiya"
+	name := basics.Name{}
+	name.FirstName = "aman"
+	name.LastName = "chourasiya"
 }
 
 func loopsDemo() {
@@ -44,7 +44,7 @@ func functionDemoRun() {
 
 }
 
-func methodaDemo() {
+func methodDemo() {
 	name := &basics.FullName{}
 	name.SetFirstName()
 

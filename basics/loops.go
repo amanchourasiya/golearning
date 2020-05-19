@@ -28,8 +28,8 @@ func LoopsDemo() {
 
 	// Loop over iterators
 	a := [5]int{1, 2, 3, 4, 5}
-	for i, v := range a {
-		fmt.Printf("index:%d value:%d\n", i, v)
+	for _, v := range a {
+		fmt.Printf("index value:%d\n", v)
 	}
 
 }

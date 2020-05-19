@@ -2,6 +2,7 @@ package basics
 
 import "fmt"
 
+// FunctionDemo1 adds two function
 func FunctionDemo1(i int, j int) int {
 	return i + j
 }
