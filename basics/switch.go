@@ -11,8 +11,8 @@ func SwitchTest(v interface{}) {
 		fmt.Println("Value received is of type string")
 	case int:
 		fmt.Println("Value received is of type int")
-	case float32:
-		fmt.Println("Value received is of type float32")
+	case float64:
+		fmt.Println("Value received is of type float64")
 	default:
 		fmt.Println("Value type unknown")
 	}
