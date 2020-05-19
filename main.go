@@ -8,14 +8,14 @@ import (
 )
 
 func main() {
-	variablesDemoRun()
+	//variablesDemoRun()
 	//loopsDemo()
 	//switchDemo()
 	//functionDemoRun()
 	//methodDemo()
 	//interfaceDemo()
 	//concurrencyDemo()
-	channelDemo()
+	//channelDemo()
 }
 
 func variablesDemoRun() {
