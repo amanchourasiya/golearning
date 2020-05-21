@@ -1,24 +1,26 @@
 package basics
 
-import "time"
-import "fmt"
+import (
+	"fmt"
+	"time"
+)
 
-func consumer(ch chan int){
-	
-	for{
-	    x := <- ch
-		fmt.Printf("consumer thread x:%d\n",x)
+func consumer(ch chan int) {
+
+	for {
+		x := <-ch
+		fmt.Printf("consumer thread x:%d\n", x)
 	}
 }
 
-func producer(ch chan int){
-    for i := 0;i < 10;i++{
+func producer(ch chan int) {
+	for i := 0; i < 10; i++ {
 		ch <- i
 		time.Sleep(time.Millisecond * 500)
 	}
 }
 
-func ChannelDemo(){
+func ChannelDemo() {
 	ch := make(chan int)
 	go producer(ch)
 	go consumer(ch)
