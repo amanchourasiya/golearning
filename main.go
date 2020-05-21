@@ -9,7 +9,7 @@ import (
 
 func main() {
 	//variablesDemoRun()
-	scopeDemo()
+	//scopeDemo()
 	//loopsDemo()
 	//switchDemo()
 	//functionDemoRun()
