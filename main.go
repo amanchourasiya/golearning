@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+	fmt.Println("Starting Go main program")
 	//variablesDemoRun()
 	//scopeDemo()
 	//loopsDemo()
@@ -25,6 +26,7 @@ func variablesDemoRun() {
 	name := basics.Name{}
 	name.FirstName = "aman"
 	name.LastName = "chourasiya"
+	basics.MapsDemo()
 }
 
 func scopeDemo() {

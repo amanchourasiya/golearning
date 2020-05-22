@@ -54,5 +54,6 @@ func SliceDemo() {
 
 //Maps demo
 func MapsDemo() {
-	//m := map[int]string
+	m := make(map[int]string)
+	fmt.Printf("%v\n",m)
 }
