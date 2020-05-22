@@ -7,7 +7,7 @@ import (
 	"github.com/amanchourasiya/golearning/basics"
 )
 
-func main() {
+func main(){
 	fmt.Println("Starting Go main program")
 	//variablesDemoRun()
 	//scopeDemo()
@@ -26,7 +26,6 @@ func variablesDemoRun() {
 	name := basics.Name{}
 	name.FirstName = "aman"
 	name.LastName = "chourasiya"
-	basics.MapsDemo()
 }
 
 func scopeDemo() {
