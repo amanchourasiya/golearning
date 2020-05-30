@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+	fmt.Println("Starting GO demo program")
 	//variablesDemoRun()
 	//scopeDemo()
 	//loopsDemo()
