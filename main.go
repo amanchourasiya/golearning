@@ -5,6 +5,7 @@ import (
 	"time"
 
 	"github.com/amanchourasiya/golearning/basics"
+	"github.com/amanchourasiya/golearning/features"
 )
 
 func main() {
@@ -18,6 +19,9 @@ func main() {
 	//interfaceDemo()
 	//concurrencyDemo()
 	//channelDemo()
+	//bufferChannelDemo()
+	//compositionDemo()
+	//selectDemo()
 }
 
 func variablesDemoRun() {
@@ -74,10 +78,7 @@ func SBCDeployment(sbc basics.SbcType) {
 }
 
 func interfaceDemo() {
-	swe := &SBC7k{
-		isCloud: false,
-	}
-	SBCDeployment(swe)
+	features.InterfaceDemo()
 
 }
 
@@ -92,4 +93,16 @@ func concurrencyDemo() {
 
 func channelDemo() {
 	basics.ChannelDemo()
+}
+
+func bufferChannelDemo() {
+	features.BufferChannelDemo()
+}
+
+func compositionDemo() {
+	features.CompositionDemo()
+}
+
+func selectDemo() {
+	features.SelectDemo()
 }
