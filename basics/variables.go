@@ -28,6 +28,9 @@ func VariablesDemo() {
 	//j = true
 
 	fmt.Printf("i:%d j:%d %d\n", i, j, c)
+	ArrayDemo()
+	SliceDemo()
+	MapsDemo()
 
 }
 
@@ -38,9 +41,12 @@ type Name struct {
 
 // Declaring Arrays
 
-var arr = [3]int{1, 2, 3}
+//var arr = [3]int{1, 2, 3}
 
 func ArrayDemo() {
+	//var arr [3]int
+	//arr = [3]int{1,2,3}
+	arr:= []int{1,2,3}
 	fmt.Printf("Array element %d\n", arr[2])
 }
 
@@ -54,5 +60,6 @@ func SliceDemo() {
 
 //Maps demo
 func MapsDemo() {
-	//m := map[int]string
+	m := make(map[int]string)
+	fmt.Printf("%v\n",m)
 }
