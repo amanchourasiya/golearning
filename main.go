@@ -22,6 +22,7 @@ func main() {
 	//bufferChannelDemo()
 	//compositionDemo()
 	//selectDemo()
+	restDemo()
 }
 
 func variablesDemoRun() {
@@ -105,4 +106,9 @@ func compositionDemo() {
 
 func selectDemo() {
 	features.SelectDemo()
+}
+
+func restDemo() {
+	features.JsonDemo()
+	features.RequestsDemo()
 }

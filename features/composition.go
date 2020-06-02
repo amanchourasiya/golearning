@@ -13,5 +13,6 @@ func CompositionDemo() {
 	emp.name.firstName = "John"
 	emp.name.lastName = "Doe"
 	//emp.Name = Name{firstName: "John", lastName: "Doe"}
+	//emp.getName()
 
 }
